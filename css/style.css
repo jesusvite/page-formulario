@@ -1,0 +1,94 @@
+:root{
+    --primary-color:#A7D2CB;
+    --secondary-color:#F2D388;
+    --terciary-color:#C98474;
+    --cuatrary-color:#874C62;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 52.6%;
+  
+}
+.contenido{
+background-color: var(--primary-color);
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-items: center;
+align-items: center;
+padding: 2rem;
+max-width: 70rem;
+}
+.section-cuestionario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+.section-cuestionario > img{    
+    border-radius:1rem;
+}
+.cuestionario-contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 3rem 0;
+    font-size: 3rem;
+    text-align: center;
+}
+.cuestionario-preguntas{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    align-items: center;
+
+}
+label{
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+span{
+    width: 80%;
+    height: auto;
+    text-align: left;
+    font-size: 2rem;
+    color: white;
+}
+input{
+    margin: 3rem 0;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: .5rem 0;
+    height: auto;
+    background-color:var(--secondary-color);
+}
+.enviar{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    margin: 3rem 0;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    background-color: var(--cuatrary-color);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

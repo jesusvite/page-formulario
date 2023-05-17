@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+}
+.contenido{
+    min-width: 60vw;
+    height: 60rem;
+    border-radius: 1.4rem;
+}
+h1{
+    margin: 1rem 0;
+    font-size: 3rem;
+    text-align: center;
+   
+}
+.section-cuestionario > img{    
+   width: 50%;
+}
+.section-cuestionario{
+    display: flex;
+    flex-direction: row;
+}
+.cuestionario-contenedor{
+    margin-left: 3rem;
+}
+.cuestionario-preguntas{
+    padding: 0;
+}
+label{   
+    margin: .3rem;
+}
+span{
+    width: 80%;
+    height: auto;
+    text-align: left;
+    font-size: 2rem;
+    color: white;
+}
+input{
+    margin: 2rem 0;
+}
+.enviar{
+    margin: 1rem 0;
+}
